@@ -1,0 +1,76 @@
+body{
+    font-size: larger;
+}
+body h1,h2{
+    text-decoration: underline;
+}
+
+#butun{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+#orta {
+    width: 60%;
+    /* background-color: darkblue; */
+}
+
+#sol_kenar{
+    width:15%;
+    background-color: yellow;
+    margin:0 1em;
+}
+
+
+
+#sag_kenar {
+    width: 15%;
+    background-color: yellow;
+    margin:0 1em;
+}
+
+/* Baslik */
+#baslik{
+    font-weight: bolder;
+    margin-bottom: 1em;
+}
+
+/* Özel bilgiler */
+#container_ozel{
+    display: flex;
+    flex-direction: row;
+}
+
+/* #resim{
+
+} */
+
+/* #ozel_bilgiler{
+font-size: larger;
+} */
+
+.content_ozellik{
+    display: block;
+    margin-left: 1em;
+}
+
+.content_ozel {
+    display: block;
+    margin-left: 5em;
+}
+
+.tarih{
+    /* font-size: larger; */
+    font-weight: bolder;
+}
+
+.content_Egitim>dt{
+font-weight: bold;
+font-size: larger;
+}
+
+#son_sira{
+    text-align: right;
+    font-weight: bold;
+}
